@@ -3,7 +3,7 @@
   <view class="am-article">
   <view class="am-article-hd">
     <view class="am-article-title">{{title}}</view>
-    <view class="am-article-meta">👀 浏览{{click}}次  ☎ 027-82333899 🏥 武汉百佳医疗美容 </view>
+    <view class="am-article-meta">👀 浏览{{click}}次  ☎ 027-82333899 🏥 xxx医疗美容 </view>
   </view>
 
   <view class="am-article-bd">

@@ -50,7 +50,7 @@
 <!-- /end hj -->
 <view class='blank15'></view>
 <view class='box-center'>
-  <view class='yybt'><text class='yyname'>武汉百佳医疗美容医院</text><image  mode="widthFix" src="../../images/icon-tel.png" class='phone' bindtap='call'></image></view>
+  <view class='yybt'><text class='yyname'>xxx医疗美容医院</text><image  mode="widthFix" src="../../images/icon-tel.png" class='phone' bindtap='call'></image></view>
   <view class='address' bindtap='openMap'><image  mode="widthFix" src="../../images/icon-wz.png" class='add-icon'></image><text class='addr'>武汉市建设大道1091号（地铁3号线罗家庄B出口）</text><image  mode="widthFix" src="../../images/right.png" class='right-icon'></image></view>
   <!-- /address -->
    <view class='time'><image  mode="widthFix" src="../../images/icon-time.png" class='time-icon'></image><text class='addr'>周一至周日 08:00-17:30</text></view>

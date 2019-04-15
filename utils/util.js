@@ -151,7 +151,7 @@ function doLogin(){
   wx.login({
     success: res => {
       wx.request({
-        url: 'https://app.whbjmr.com/wechat/miniapp/' + res.code,
+        url: 'https://app.xxx.com/wechat/miniapp/' + res.code,
         success: function (data) {
           wx.setStorageSync('token', data.data.session_key);
           //wx.setStorageSync('sliders', data.data.sliders);
