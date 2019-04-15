@@ -103,7 +103,7 @@ Page({
   },
   onShareAppMessage: function () {
     return {
-      title: shareBt+'-美购项目-武汉百佳医疗美容'
+      title: shareBt+'-美购项目-医疗美容'
     }
   },
   onPullDownRefresh: function () {

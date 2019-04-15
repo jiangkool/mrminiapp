@@ -6,7 +6,7 @@ App({
   },
   globalData:{
   	phoneNumber:'027-66666333',
-  	appName:'武汉百佳医疗美容',
+  	appName:'医疗美容',
   	appUrl: 'https://app.whbjmr.com'
   }
  

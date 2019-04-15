@@ -43,7 +43,7 @@ Page({
     wx.openLocation({
       latitude: 30.62478,
       longitude: 114.30491,
-      name:"武汉百佳医疗美容", 
+      name:"医疗美容", 
       address:"武汉市江岸区建设大道1091号（地铁3号线罗家庄站B出口）",
       scale: 18
     })

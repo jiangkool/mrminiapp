@@ -44,7 +44,7 @@ Page({
   },
   onShareAppMessage: function () {
     return {
-      title: '美购-武汉百佳医疗美容'
+      title: '美购-医疗美容'
     }
   },
   onPullDownRefresh: function () {
