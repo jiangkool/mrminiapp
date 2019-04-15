@@ -14,7 +14,7 @@
 
   "window":{
     "navigationBarBackgroundColor": "#7e5194",
-    "navigationBarTitleText": "武汉百佳医疗美容",
+    "navigationBarTitleText": "医疗美容",
     "navigationBarTextStyle":"white",
     "enablePullDownRefresh":true,
     "onReachBottomDistance":100,
