@@ -1,0 +1,90 @@
+/**index.wxss**/
+.banner{
+  width: 100%
+}
+.banner image{
+  width:100%;
+  height: 100%;
+  overflow: hidden
+  }
+  swiper{
+    height: 422rpx
+  }
+  swiper-item{
+     width:100%;
+    height: 422rpx;
+  }
+.banner navigator{
+  width:100%;
+  height: 422rpx;
+  }
+
+  .navs view{
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin-top: 30rpx
+  }
+  .navs image{
+    width: 60%;
+  }
+  .navs text{
+    width: 100%;
+    display: block
+  }
+
+  .bt{
+    width: 100%;
+    border-bottom: 4rpx solid #cecece;
+    position: relative;
+    text-align: center
+  }
+
+  .bt text{
+    position: relative;
+    bottom: -24rpx;
+    background: #FFF;
+    padding: 0 20rpx;
+    font-weight: 700;
+  }
+
+ 
+.phone{
+  width: 50rpx;
+  float: right;
+  border-left: 2rpx solid #e3e3e3;
+  padding-left: 30rpx;
+  padding-right: 20rpx
+}
+.yyname{
+  font-weight: 700;
+  color: #000;
+  font-size: 30rpx
+}
+.yybt{
+  border-bottom: 2rpx solid #e3e3e3;
+  padding-bottom: 20rpx
+}
+.address{
+  font-size: 24rpx;
+  padding-top: 20rpx;
+  border-bottom: 2rpx solid #e3e3e3;
+}
+.add-icon,.time-icon{
+  width: 32rpx;
+}
+.right-icon{
+  width: 30rpx;
+  float: right;
+
+}
+.addr{
+  margin-left: 10rpx;
+  position: relative;
+  top: -8rpx
+}
+
+.time{
+  font-size: 24rpx;
+  padding-top: 20rpx;
+}

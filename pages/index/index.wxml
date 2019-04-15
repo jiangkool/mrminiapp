@@ -1,0 +1,62 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper class='banner' indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{sliders}}" wx:key="slider_key"  wx:for-item="slider">
+    <swiper-item>
+      <image bindtap='showXm' id="{{slider['id']}}" src="{{slider['thumb']}}" class="slide-image" width="320" />
+    </swiper-item>
+  </block>
+</swiper>
+<!-- box-center -->
+<view class='box-center'>
+  <view class='navs'>
+    <view><navigator url="../category/index?id=999" hover-class="none"><image lazy-load="true" mode="widthFix" src="../../images/icon_11.jpg"></image><text>热门项目</text></navigator></view>
+    <view><navigator url="../category/index?id=2" hover-class="none"><image lazy-load="true" mode="widthFix" src="../../images/icon_03.jpg"></image><text>皮肤管理</text></navigator></view>
+    <view><navigator url="../category/index?id=3" hover-class="none"><image lazy-load="true" mode="widthFix" src="../../images/icon_06.jpg"></image><text>玻尿酸</text></navigator></view>
+    <view><navigator url="../category/index?id=4" hover-class="none"><image lazy-load="true" mode="widthFix" src="../../images/icon_08.jpg"></image><text>肉毒素</text></navigator></view>
+    <view><navigator url="../category/index?id=5" hover-class="none"><image lazy-load="true" mode="widthFix" src="../../images/icon_17.jpg"></image><text>美眼</text></navigator></view>
+    <view><navigator url="../category/index?id=6" hover-class="none"><image lazy-load="true" mode="widthFix" src="../../images/icon_22.jpg"></image><text>美鼻</text></navigator></view>
+    <view><navigator url="../category/index?id=7" hover-class="none"><image lazy-load="true" mode="widthFix" src="../../images/icon_24.jpg"></image><text>美胸</text></navigator></view>
+    <view><navigator url="../category/index?id=8" hover-class="none"><image lazy-load="true" mode="widthFix" src="../../images/icon_19.jpg"></image><text>其他</text></navigator></view>
+  </view>
+</view>
+<!-- /box-center --> 
+<view class='box-list-main'>
+ <block  wx:for="{{products}}" wx:key="mykey"  wx:for-item="product">
+<box-list id="{{product['id']}}" thumb="{{product['thumb']}}" title="{{product['title']}}" title="{{product['title']}}" new_price="{{product['new_price']}}" old_price="{{product['old_price']}}" bindmyshowevent="show" bindmyevent="ksyy"></box-list>
+</block>
+</view>
+<view class='blank15'></view>
+<view class='box-center'>
+<view class='bt'><text>精品案例</text></view>
+<view class='blank15'></view>
+</view>
+<!-- /box-center --> 
+<view class='box-list-main'  >
+<block  wx:for="{{cases}}" wx:key="case_key" wx:for-index="caseKey" wx:for-item="case">
+<anli-list id="{{case['id']}}" thumb="{{case['thumb']}}"  bindmyshowevent="show" title="{{case['title']}}"></anli-list>
+</block>
+</view>
+<view class='blank15'></view>
+<swiper class='banner' indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{hjUrls}}" wx:key="hj_key">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="320" height="163"/>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- /end hj -->
+<view class='blank15'></view>
+<view class='box-center'>
+  <view class='yybt'><text class='yyname'>武汉百佳医疗美容医院</text><image  mode="widthFix" src="../../images/icon-tel.png" class='phone' bindtap='call'></image></view>
+  <view class='address' bindtap='openMap'><image  mode="widthFix" src="../../images/icon-wz.png" class='add-icon'></image><text class='addr'>武汉市建设大道1091号（地铁3号线罗家庄B出口）</text><image  mode="widthFix" src="../../images/right.png" class='right-icon'></image></view>
+  <!-- /address -->
+   <view class='time'><image  mode="widthFix" src="../../images/icon-time.png" class='time-icon'></image><text class='addr'>周一至周日 08:00-17:30</text></view>
+  <!-- /address -->
+</view>
+<!-- /box-center -->
+<view class='blank15'></view>
+</view> 
+<!-- /container -->

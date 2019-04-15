@@ -1,0 +1,10 @@
+<!--pages/cases/index.wxml-->
+<scroll-view  bindscrolltolower="showMore" scroll-y style="height:{{windowHeight}}px">
+<view class='container'>
+<view class='box-list-main'>
+<block  wx:for="{{data_list}}"  wx:key="case_key" wx:for-item="case" >
+  <anli-list id="{{case['id']}}" thumb="{{case['thumb']}}"  title="{{case['title']}}" bindmyshowevent="show"></anli-list>
+ </block>
+  </view>
+</view>
+</scroll-view>

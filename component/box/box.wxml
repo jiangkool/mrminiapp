@@ -1,0 +1,5 @@
+<!--component/box.wxml-->
+<view class='item'>
+<view bindtap="show"><image mode="widthFix" lazy-load="true" src="{{thumb}}"></image><text class='item-name'>{{title}}</text></view>
+<text class='price'>￥{{new_price}}</text><text class='old-price'>￥{{old_price}}</text><button  type="default" size="mini"  bindtap="ksyy" hover-class="other-button-hover" class='ksyy'> 快速预约 </button>
+</view>

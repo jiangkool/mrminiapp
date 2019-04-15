@@ -1,0 +1,28 @@
+<view class="mpage {{!ui.tStart? 'withAnimate': ''}}" style="left:{{ui.offsetLeft}}px;width: {{ui.windowWidth}}px" bindtouchstart="handlerStart" catchtouchmove="handlerMove" bindtouchcancel="handlerCancel" bindtouchend="handlerEnd" bindtap="handlerPageTap">
+  <scroll-view  bindscrolltolower="showMore" scroll-y style="height:{{ui.windowHeight}}px" lower-threshold="50">
+  <view class='container'>
+    <view class='box-list-main'>
+    <block  wx:for="{{data_list}}"  wx:key="pro_key" wx:for-item="product" >
+   <box-list id="{{product['id']}}" thumb="{{product['thumb']}}" title="{{product['title']}}" new_price="{{product['new_price']}}" old_price="{{product['old_price']}}" bindmyevent="ksyy" bindmyshowevent="show"></box-list>
+   </block>
+  </view>
+  <!-- /box-list-main -->
+  <view class='blank15'></view>
+  </view>
+  </scroll-view>
+</view>
+<view bindtouchstart="handlerStart" catchtouchmove="handlerMove" bindtouchcancel="handlerCancel" bindtouchend="handlerEnd" class="menu" style="width: {{ui.menuWidth}}px">
+  <view style="width: {{ui.menuWidth}}px;left:{{-ui.menuWidth/3 + ui.offsetLeft/3}}px" class="menu-box {{!ui.tStart? 'withAnimate': ''}}">
+     <view class='blank15'></view>
+     <view class='search-box'><input placeholder="搜索" type="text" bindconfirm="submitSearch" confirm-type="search"/></view>
+     <view class='cat' id='0' bindtap='showCat'><text class='cat-name'>查看全部</text><image  mode="widthFix" src="../../images/right.png" class='right-icon'></image></view>
+     <view class='cat' id='999' bindtap='showCat'><text class='cat-name'>爆款美购</text><image  mode="widthFix" src="../../images/right.png" class='right-icon'></image></view>
+     <view class='cat' id='2' bindtap='showCat'><text class='cat-name'>皮肤管理</text><image  mode="widthFix" src="../../images/right.png" class='right-icon'></image></view>
+     <view class='cat' id='3' bindtap='showCat'><text class='cat-name'>玻尿酸</text><image  mode="widthFix" src="../../images/right.png" class='right-icon'></image></view>
+     <view class='cat' id='4' bindtap='showCat'><text class='cat-name'>肉毒素</text><image  mode="widthFix" src="../../images/right.png" class='right-icon'></image></view>
+     <view class='cat' id='5' bindtap='showCat'><text class='cat-name'>美眼</text><image  mode="widthFix" src="../../images/right.png" class='right-icon'></image></view>
+     <view class='cat' id='6' bindtap='showCat'><text class='cat-name'>美鼻</text><image  mode="widthFix" src="../../images/right.png" class='right-icon'></image></view>
+     <view class='cat' id='7' bindtap='showCat'><text class='cat-name'>美胸</text><image  mode="widthFix" src="../../images/right.png" class='right-icon'></image></view>
+     <view class='cat' id='8' bindtap='showCat'><text class='cat-name'>其他</text><image  mode="widthFix" src="../../images/right.png" class='right-icon'></image></view>
+  </view>
+</view>

@@ -1,0 +1,32 @@
+<!--pages/zhuanjia/index.wxml-->
+<view class='container'>
+<scroll-view scroll-y style="height:{{scrollHeight}}px" bindscrolltolower="showMore"  lower-threshold="50">
+ <block  wx:for="{{data_list}}"  wx:key="zj_key" wx:for-item="zj" >
+<view class='zjitem'>
+<view class='blank15'></view>
+<view class='box-center' id="{{zj['id']}}" bindtap='showZj'>
+  <view class='zjimg fl'>
+  <image  mode="widthFix" lazy-load="true" src="{{zj['thumb']}}"></image>
+  </view>
+  <view class='zjinfo fl'>
+  <text class='zjname'>{{zj['title']}} {{zj['zj_zc']}}</text>
+  <view class='blank'></view>
+  <text>出诊时间：{{zj['cz_time']}}</text>
+  <view class='blank'></view>
+  <text class='zysc'>专业擅长：{{zj['zj_sc']}}</text>
+  </view>
+</view>
+<!-- /box-center -->
+<view class='blank15'></view>
+<view class='tools text-center'>
+<view class='dhzx fl' bindtap='call'><image  mode="widthFix" src="../../images/zj_07.jpg"></image>电话咨询</view>
+<button class='zxzx fr' open-type="contact" session-from="{{zj['title']}}在线咨询按钮"><image  mode="widthFix" src="../../images/zj_10.jpg"></image>在线咨询</button>
+</view>
+<view class='clear'></view>
+</view>
+<view class='blank10'></view>
+<!-- /zjitem -->
+</block>
+
+ </scroll-view>
+</view>

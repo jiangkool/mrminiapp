@@ -1,0 +1,20 @@
+<import src="../../wxParse/wxParse.wxml"/> 
+<view class='container article'>
+  <view class="am-article">
+  <view class="am-article-hd">
+    <view class="am-article-title">{{title}}</view>
+    <view class="am-article-meta">👀 浏览{{click}}次  ☎ 027-82333899 🏥 武汉百佳医疗美容 </view>
+  </view>
+
+  <view class="am-article-bd">
+    <template is="wxParse" data="{{wxParseData:body.nodes}}"/>
+  </view>
+  <view class='box-center'>
+  <view class='blank15'></view>
+  <button type='warn' size='mini' class='art-zxbtn fl' open-type="contact" session-from="医美小程序-{{title}}">💬 在线预约</button> 
+   <button type='default' size='mini' class='art-zxbtn fr' bindtap='call' >📱 电话预约</button> 
+   </view>
+  <view class='blank15'></view>
+</view>
+
+</view>

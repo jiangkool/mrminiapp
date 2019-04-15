@@ -1,0 +1,43 @@
+<view class="yyform">
+  <view class="bt"><i class="fa fa-address-card" aria-hidden="true"></i> 填写预约信息</view>
+  <form bindsubmit="formSubmit" bindreset="formReset" report-submit="true">
+    <view class="section">
+    <view class="section_title">您的姓名</view>
+    <input name="name" type="text" placeholder="" />
+    </view>
+    <view class="section">
+    <view class="section_title">联系电话</view>
+    <input name="phone" type="number" maxlength="11" placeholder="" />
+    </view>
+<view class="section section_gap">
+    <view class="section_title">选择项目</view>
+    <radio-group name="keshi" class="keshi">
+    <view class="blank10"></view>
+      <label class="fl"><radio value="眼部"/> 眼部</label>
+      <label class="fm"><radio value="鼻部"/> 鼻部</label>
+      <label class="fr"><radio value="形体"/> 形体</label>
+      <label class="fl"><radio value="私密"/> 私密</label>
+      <label class="fm"><radio value="半永久"/> 半永久</label>
+      <label class="fr"><radio value="微整"/> 微整</label>
+      <label class="fl"><radio value="美肤"/> 美肤</label>
+      <label class="fm"><radio value="面廓"/> 面廓</label>
+      <label class="fr"><radio value="其它"/> 其它</label>
+      <view class="blank10"></view>
+    </radio-group>
+  </view>
+    <view class="section">
+    <view class="section_title">到院时间</view>
+    <input name="dytime" type="text"  />
+    </view>
+    <view class="section">
+    <view class="section_title">备注信息</view>
+    <input name="beizhu" type="text" confirm-type="done" />
+    </view>
+    <view class="blank10"></view>
+  <view class="btn-area">
+    <button formType="submit" type="primary" class="subbtn"> 提交预约</button>
+    <button type="warn" class='subbtn' bindtap='call'>电话预约</button>
+  </view>
+  <view class="blank10"></view>
+  </form>
+</view>

@@ -1,0 +1,82 @@
+/* index.wxss */
+.yyform{
+  margin: 20rpx;
+  border: 1px solid #eee;
+  background: #f4f4f4;
+  padding: 20rpx
+}
+.bt{
+  font-size: 32rpx;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 2rpx solid #eee;
+  line-height: 70rpx
+}
+.section{
+  margin: 20rpx 0 0 0;
+}
+.section_title{
+  position: relative;
+  margin: 20rpx 0 10rpx 0;
+  font-size: 28rpx
+}
+.section input{
+  border: 2rpx solid #eee;
+  height: 70rpx;
+  line-height: 70rpx;
+  background: #FFF;
+  border-radius: 10rpx;
+  text-indent: 10rpx
+
+}
+.hdinfo{
+padding: 0 10rpx;
+color: #545454;
+font-weight: normal
+}
+.hddesc{
+  background: #FFF;
+  display: block;
+  padding: 10px
+}
+.prices{
+  text-align: left
+}
+.hdinfo radio{
+  display: none;
+}
+
+.hdbt{
+font-weight: normal;
+color: #333;
+}
+.new-price{
+  color: #c13614;
+  font-weight: normal
+}
+.old-price{
+  color: #999;
+  text-decoration: line-through;
+  font-weight: normal;
+  padding-left: 30rpx;
+  font-size: 24rpx
+}
+.hdthumb{
+  width: 100%;
+  min-height: 672rpx; 
+  border: 1px solid #eee;
+  border-radius: 10rpx;
+  box-shadow: 0 0 5rpx #ddd
+}
+.btn-area button{
+  margin-top: 20rpx
+}
+.section_gap label{
+  font-size: 30rpx;
+  font-weight: 700
+}
+
+.subbtn::after{
+  display: none
+}
+.subbtn{border-radius: 60px}

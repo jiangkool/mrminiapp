@@ -1,0 +1,39 @@
+<view class="yyform">
+  <view class="bt"><i class="fa fa-address-card" aria-hidden="true"></i> 填写预约信息</view>
+  <form bindsubmit="formSubmit">
+      <view class="section section_gap">
+    <radio-group name="hdtitle" class="hdinfo">
+    <view class="blank10"></view>
+    <view class="hdimg"><image src="{{hdthumb}}" class="hdthumb"></image></view>
+     <view class="blank10"></view>
+      <label class='hddesc'><radio value="{{hdtitle}}" checked="true"/>
+      <text class='hdbt'>{{hdtitle}}</text>
+      <view class="blank10"></view>
+      <view class='prices'><text class='new-price'>【现价】：{{new_price}} 元</text><text class='old-price'>原价：{{old_price}} 元</text></view>
+      <view class="blank10"></view>
+      </label>
+    </radio-group>
+        <view class="blank10"></view>
+  </view>
+    <view class="section">
+    <view class="section_title">您的姓名</view>
+    <input name="name" type="text" placeholder="" confirm-type="done"/>
+    </view>
+    <view class="section">
+    <view class="section_title">联系电话</view>
+    <input name="phone" type="number" maxlength="11" placeholder="" confirm-type="done" />
+    </view>
+     <view class="section">
+    <view class="section_title">备注信息</view>
+    <input name="bark" type="text" confirm-type="done" placeholder="" />
+    </view>
+    <view class="blank10"></view>
+  <view class="btn-area">
+    <button formType="submit" type="primary" class="subbtn">📩 提交信息</button>
+    <button  type="warn" class='subbtn' bindtap='call'>☎ 电话咨询</button>
+  </view>
+  <view class="blank10"></view>
+  </form>
+</view>
+
+

@@ -1,0 +1,67 @@
+{
+
+  "pages":[
+    "pages/index/index",
+    "pages/zhuanjia/index",
+    "pages/shop/index",
+    "pages/show/index",
+    "pages/cases/index",
+    "pages/category/index",
+    "pages/search/index",
+    "pages/yuyue/index",
+    "pages/baoming/index"
+  ],
+
+  "window":{
+    "navigationBarBackgroundColor": "#7e5194",
+    "navigationBarTitleText": "武汉百佳医疗美容",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true,
+    "onReachBottomDistance":100,
+    "backgroundTextStyle":"dark"
+  },
+
+  "tabBar": {
+  "selectedColor": "#7e5194",
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/icon-home.png",
+      "selectedIconPath": "images/icon-home-on.png"
+    },
+    {
+      "pagePath": "pages/shop/index",
+      "text": "美购",
+      "iconPath": "images/icon-shop.png",
+      "selectedIconPath": "images/icon-shop-on.png"
+    },
+    {
+      "pagePath": "pages/cases/index",
+      "text": "案例",
+      "iconPath": "images/icon-al.png",
+      "selectedIconPath": "images/icon-al-on.png"
+    },
+    {
+      "pagePath": "pages/yuyue/index",
+      "text": "预约",
+      "iconPath": "images/icon-yy.png",
+      "selectedIconPath": "images/icon-yy-on.png"
+    },
+    {
+      "pagePath": "pages/zhuanjia/index",
+      "text": "专家",
+      "iconPath": "images/icon-zj.png",
+      "selectedIconPath": "images/icon-zj-on.png"
+    }
+  ]
+  },
+
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+
+  "debug": true
+
+}

@@ -1,0 +1,15 @@
+@import "/wxParse/wxParse.wxss";
+.am-article:after,.am-article:before{content:" ";display:table}
+.am-article:after{clear:both}
+.am-article+.am-article{margin-top:24px}
+.am-article-title{font-size:20px;line-height:1.5;font-weight:400;width: 100%;}
+.am-article-meta{font-size:12px;line-height:1.5;color:#999;padding: 10px 0}
+.am-article-lead{color:#666;font-size:14px;line-height:1.5;border:1px solid #dedede;border-radius:2px;background:#f9f9f9;padding:10px}.am-article-divider{margin-bottom:24px;border-color:#eee}
+.am-article-divider{margin-top:24px}
+.am-article-bd blockquote{font-family:Georgia,"Times New Roman",Times,Kai,"Kaiti SC",KaiTi,BiauKai,FontAwesome,serif}
+.am-article-bd img{display:block;max-width:100%}
+.article{width: 96%;margin-top: 40rpx;position: relative;left: 2%}
+.art-zxbtn{border-radius: 60rpx;width: 48%;border: 1px solid #dedede}
+.art-zxbtn::after{
+  display: none
+}

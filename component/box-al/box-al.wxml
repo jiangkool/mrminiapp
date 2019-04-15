@@ -1,0 +1,4 @@
+<!--component/box-al/box-al.wxml-->
+<view class='item'>
+<view bindtap='show'><image lazy-load="true" mode="widthFix" src="{{thumb}}"></image><view class='item-name'>{{title}}</view></view>
+</view>

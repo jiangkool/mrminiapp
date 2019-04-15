@@ -1,0 +1,33 @@
+/* component/box-al/box-al.wxss */
+
+.item{
+  width: 47%;
+  float: left;
+  margin-left: 2%;
+  margin-top: 15px;
+  text-align: center
+}
+.item navigator{
+  width: 100%;
+}
+
+.item image{
+  width: 100%;
+}
+
+.item .ksyy{
+  width: 120rpx;
+  padding: 0;
+  float: right;
+  color: #c13614;
+  background: #FFF;
+  border:2rpx solid #c13614;
+  border-radius: 40rpx;
+  font-size: 24rpx;
+  line-height: 2
+}
+
+.item .item-name{
+  text-align: left;
+  line-height: 1.4
+}

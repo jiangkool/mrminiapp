@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "box-list": "/component/box/box"
+  },
+  "navigationBarTitleText": "搜索结果-武汉百佳医疗美容"
+}

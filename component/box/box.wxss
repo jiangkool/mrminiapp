@@ -1,0 +1,46 @@
+/* component/box.wxss */
+
+
+.item{
+  width: 47%;
+  float: left;
+  margin-left: 2%;
+  margin-top: 15px
+}
+.item navigator{
+  width: 100%;
+}
+
+.item image{
+  width: 100%;
+}
+.item-name{
+  width: 100%;
+  height: 96rpx;
+  display: block;
+  overflow: hidden
+}
+
+.item .price{
+  color: #c13614;
+  font-size: 30rpx;
+  padding-right: 10rpx
+}
+
+.item .old-price{
+  color: #999;
+  text-decoration: line-through;
+  font-size: 20rpx
+}
+
+.item .ksyy{
+  width: 120rpx;
+  padding: 0;
+  float: right;
+  color: #c13614;
+  background: #FFF;
+  border:2rpx solid #c13614;
+  border-radius: 60rpx;
+  font-size: 24rpx;
+  line-height: 2
+}

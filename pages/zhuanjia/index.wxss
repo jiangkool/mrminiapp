@@ -1,0 +1,63 @@
+/* pages/zhuanjia/index.wxss */
+.zjitem{
+  width: 100%;
+  background: #FFF;
+  border-top: 2rpx solid #ebebeb;
+  box-shadow: 0 0 10rpx #ebebeb
+}
+
+.zjimg{
+  width: 20%;
+  margin:0 20rpx;
+}
+.zjinfo{
+  width: 70%; 
+  font-size: 24rpx;
+  color: #505050;
+}
+.zjimg image{
+  width:100%;
+  display: block;
+  margin-top: 10px
+}
+.zjname{
+  font-size: 28rpx;
+  color: #333
+}
+.container{
+  background: #ebebeb
+}
+.tools{
+  border-top: 2rpx solid #ebebeb;
+  background: #FFF;
+}
+.tools image{
+  width: 30rpx;margin-right: 10rpx
+}
+.tools view{
+  width: 49%;
+  padding: 20rpx 0;
+  font-size: 28rpx;
+  background: #FFF;
+}
+.tools view.dhzx{
+   border-right: 1px solid #ebebeb;
+   background: #FFF;
+}
+.tools button{
+  margin: 0;
+  font-size: 14px;
+  width: 49%;
+  padding: 10rpx 0;
+  line-height: auto;
+  color: #333;
+  background-color: #FFF;
+  border: 0;
+  border-radius: 0px;
+}
+.tools button::after,.tools button::before{
+  display: none;
+}
+.blank1{
+  width: 100%;height: 0;clear: both
+}

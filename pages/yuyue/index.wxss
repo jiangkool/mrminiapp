@@ -1,0 +1,56 @@
+/* pages/mzyy/index.wxss */
+.yyform{
+  margin: 20rpx;
+  border: 1px solid #eee;
+  background: #f4f4f4;
+  padding: 20rpx
+}
+.bt{
+  font-size: 36rpx;
+  font-weight: 700;
+  text-align: center;
+  border-bottom: 2rpx solid #eee;
+  line-height: 70rpx
+}
+.section{
+  margin: 20rpx 0 0 0;
+}
+.section_title{
+  position: relative;
+  margin: 20rpx 0 10rpx 0;
+  font-size: 28rpx
+}
+.section input{
+  border: 2rpx solid #eee;
+  height: 70rpx;
+  line-height: 70rpx;
+  background: #FFF;
+  text-indent: 10rpx
+
+}
+.keshi{
+}
+.keshi label{
+  width: 33.3333%;
+  border-bottom: 1rpx solid #eee;
+  line-height: 48rpx;
+  padding:10rpx 0;
+  background: #FFF;
+  box-shadow: 0 0 5px #ddd
+}
+.keshi label radio{
+  margin-left:20rpx;
+  margin-top: -4rpx;
+}
+.btn-area button{
+  margin-top: 20rpx
+}
+
+.section_gap label{
+  font-size: 24rpx
+}
+.border-top{
+  border-top: 1rpx solid #eee
+}
+
+.subbtn{border-radius: 60px}
