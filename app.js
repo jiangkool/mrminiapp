@@ -5,7 +5,7 @@ App({
   util.doLogin();
   },
   globalData:{
-  	phoneNumber:'027-66666333',
+  	phoneNumber:'xxxxxx',
   	appName:'医疗美容',
   	appUrl: 'https://app.xxx.com'
   }
